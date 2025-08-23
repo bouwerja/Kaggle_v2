@@ -5,6 +5,8 @@ from tkinter.filedialog import askdirectory
 import os
 import pandas as pd
 
+print("You should be seeing a Tkinter window")
+
 Tk().withdraw()
 files_path = askdirectory()
 
