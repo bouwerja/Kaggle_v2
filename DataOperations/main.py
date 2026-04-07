@@ -31,6 +31,7 @@ files = list(Path(".").glob("*.csv"))
 files_path = files[0]
 
 table_name = os.path.basename(files_path)
+table_name = table_name.split(".")[0]
 print(f"Processing data for table: Kaggle.{table_name}")
 
 
